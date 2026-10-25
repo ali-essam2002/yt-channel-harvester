@@ -28,9 +28,8 @@
 - [Sample results](#sample-results)
 - [Data quality and limitations](#data-quality-and-limitations)
 - [Troubleshooting](#troubleshooting)
-- [Roadmap](#roadmap)
 - [Responsible use](#responsible-use)
-- [Author](#author)
+
 
 ---
 
@@ -198,25 +197,9 @@ Dataset: the AndroidBasha channel, scraped on 21 October 2026.
 | Power BI cannot find the file | Update the path in Data source settings |
 | `Failed to resolve name` in a DAX measure | The table name in the formula does not match the Data pane; use the exact name |
 
----
-
-## Roadmap
-
-- [ ] Command-line entry point to replace notebook-only execution
-- [ ] Optional YouTube Data API source for exact upload dates and counts
-- [ ] Multi-channel comparison page in the dashboard
-- [ ] Scheduled refresh of the dataset
-- [ ] Unit tests for the parsing helpers
 
 ---
 
 ## Responsible use
 
 Collect only public data, keep request rates modest, and follow YouTube's Terms of Service and the laws that apply to you. For production or commercial use, prefer the official YouTube Data API.
-
----
-
-## Author
-
-**Ali Essam**, Cairo, Egypt
-GitHub: [ali-essam2002](https://github.com/ali-essam2002)
